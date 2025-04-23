@@ -1,0 +1,155 @@
+.trending-container {
+    width: 80%;
+    max-width: 1200px;
+    margin-inline: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.trending-container .trending-top {
+    margin-top: 20px;
+}
+
+.trending-top h1 {
+    font-weight: 700;
+    color: rgb(0, 174, 255);
+    margin-bottom: 50px;
+}
+
+.trending-top p {
+    max-width: 900px;
+    margin-left: 80px;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    color: gray;
+}
+
+.trending-bottom {
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.trending-bottom .trending-course {
+    background: #fff;
+    color: gray;
+    box-shadow: 0px 3px 3px 3px rgb(150, 149, 149);
+    width: 29%;
+    height: auto;
+    padding: 10px 0;
+    border-radius: 10px;
+    transition: all 0.12s, outline 0.6s;
+}
+
+.trending-bottom .trending-course:hover {
+    outline: 1px solid rgb(0, 219, 248);
+    transform: scale(1.03);
+}
+
+.trending-bottom .trending-course img {
+    /* width: 285px; */
+    width: 100%;
+    padding: 0 8px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.trending-bottom .trending-course h3 {
+    text-align: left;
+    padding: 10px;
+    background: aliceblue;
+    margin: 10px 9px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.trending-bottom .trending-course p {
+    text-align: left;
+    line-height: 20px;
+    font-size: 13px;
+    margin: 20px 15px 20px 15px;
+}
+
+.trending-bottom .trending-course .more {
+    background-color: rgb(2, 117, 170);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+    margin: auto 5px;
+    padding: 10px 0;
+}
+
+.trending-bottom .trending-course a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .trending-top p {
+        width: auto;
+        margin: 0 auto;
+        margin-top: -10px;
+        font-size: 15px;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .trending-bottom .trending-course {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .trending-bottom {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .trending-bottom .trending-course {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .trending-bottom {
+        display: block;
+        margin-left: 80px;
+    }
+
+    .trending-bottom .trending-course {
+        width: 70%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .trending-top h1 {
+        font-size: larger;
+    }
+
+    .trending-top p {
+        width: auto;
+        margin: 0 auto;
+        margin-top: -15px;
+        font-size: 15px;
+        padding: 0;
+    }
+
+    .trending-bottom {
+        display: block;
+        margin-left: 60px;
+    }
+
+    .trending-bottom .trending-course {
+        width: 80%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}

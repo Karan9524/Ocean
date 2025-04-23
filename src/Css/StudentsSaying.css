@@ -1,0 +1,258 @@
+.saying-container {
+    width: 100%;
+    max-width: 1200px;
+    margin-inline: auto;
+    margin-top: 3%;
+    text-align: center;
+    padding: 0 200px;
+}
+
+.saying-top-content {
+    margin-bottom: 9%;
+}
+
+.saying-top-content p {
+    margin: 0 auto;
+    width: fit-content;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.saying-top-content h1 {
+    margin: 20px auto;
+    width: fit-content;
+    color: rgb(0, 174, 255);
+    font-weight: 550;
+}
+
+.saying-bottom-content {
+    width: 90%;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.876);
+    padding: 50px 10px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 100px 1px rgba(0, 0, 0, 0.055);
+    position: relative;
+}
+
+.saying-bottom-content .img {
+    width: 30%;
+    margin-top: 20px;
+    margin-left: -100px;
+    position: absolute;
+}
+
+.saying-bottom-content .review-details {
+    width: 70%;
+    text-align: left;
+    margin-left: 200px;
+}
+
+.saying-bottom-content .review-details .review-content {
+    margin-bottom: 30px;
+    height: 170px;
+    align-items: center;
+    justify-content: center;
+}
+
+.saying-bottom-content .review-details .review-content p {
+    line-height: 23px;
+}
+
+.saying-bottom-content .review-details h4 {
+    color: rgb(0, 100, 139);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    .saying-top-content h1 {
+        font-size: large;
+        font-weight: 500;
+    }
+
+    .saying-bottom-content {
+        margin-block: 30px;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .saying-bottom-content img {
+        width: 100px;
+        margin-top: -50px;
+        margin-left: 100px;
+        border-radius: 50%;
+        padding: 2px;
+        border: 1px solid rgb(0, 100, 139);
+    }
+
+    .review-content p {
+        margin-left: -170px;
+        margin-top: 90px;
+        margin-right: 20px;
+    }
+
+    .review-details h4,
+    p {
+        margin-left: -170px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .saying-bottom-content {
+        width: 150%;
+        margin-left: -120px;
+    }
+
+    .review-details .name {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .saying-bottom-content {
+        width: 160%;
+        margin-left: -160px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .saying-bottom-content {
+        width: 180%;
+        margin-left: -170px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .saying-bottom-content {
+        width: 200%;
+        margin-left: -170px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .saying-bottom-content {
+        width: 230%;
+        margin-left: -180px;
+    }
+
+    .review-content p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .saying-top-content p {
+        font-size: 15px;
+        margin-left: 70px;
+    }
+
+    .saying-top-content h1 {
+        font-size: larger;
+        font-weight: 500;
+        width: 200%;
+        margin-left: -80px;
+    }
+
+    .saying-bottom-content {
+        width: 285%;
+        padding: 0px;
+        margin-left: -180px;
+        margin-top: 50px;
+    }
+
+    .review-content p {
+        font-size: 15px;
+    }
+
+    .review-details h4 {
+        margin-top: 10px;
+    }
+
+    .review-details p {
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .saying-top-content p {
+        font-size: 14px;
+        margin-left: 50px;
+    }
+
+    .saying-top-content h1 {
+        font-size: larger;
+        font-weight: 500;
+        width: 200%;
+        margin-left: -50px;
+    }
+
+    .saying-bottom-content {
+        width: 350%;
+        padding: 0px;
+        margin-left: -180px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .saying-top-content p {
+        font-family: 13px;
+    }
+
+    .saying-top-content h1 {
+        font-size: larger;
+        font-weight: 500;
+        width: 200%;
+        margin-left: -40px;
+    }
+
+    .saying-bottom-content {
+        width: 370%;
+        padding: 0px;
+        margin-left: -180px;
+    }
+
+    .review-content p {
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .saying-top-content p {
+        font-size: 11px;
+        width: 150%;
+        margin-left: -15px;
+    }
+
+    .saying-top-content h1 {
+        font-size: 15px;
+        font-weight: 500;
+        width: 160%;
+        margin-left: -25px;
+    }
+
+    .saying-bottom-content {
+        width: 450%;
+        padding: 0px;
+        margin-left: -160px;
+    }
+
+    .review-content p {
+        font-size: 13px;
+        padding-bottom: 20px;
+    }
+
+    .saying-bottom-content img {
+        margin-left: 70px;
+    }
+
+    .review-details .name {
+        font-size: 13px;
+    }
+}
